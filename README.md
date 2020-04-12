@@ -22,7 +22,7 @@ api/v1/student/{some id} (with DELETE method) will delete a specific record.
 
 ## Endpoints
 
-### 1. POST api/v1/student
+### 1. POST https://nodeapi-student-crud.herokuapp.com/api/v1/student
 
 - Request Body Data Format:
 
@@ -55,7 +55,7 @@ api/v1/student/{some id} (with DELETE method) will delete a specific record.
   }
   ```
 
-### 2. GET api/v1/student/studentId eg api/v1/student/111111
+### 2. GET https://nodeapi-student-crud.herokuapp.com/api/v1/student/studentId eg api/v1/student/111111
 
 - Response Data Format:
   ```JSON
@@ -75,7 +75,7 @@ api/v1/student/{some id} (with DELETE method) will delete a specific record.
   }
   ```
 
-### 3. GET api/v1/students/page/limit eg api/v1/student/1/2
+### 3. GET  https://nodeapi-student-crud.herokuapp.com/api/v1/student/1/2
 
 - Response Data Format:
   ```JSON
@@ -114,7 +114,7 @@ api/v1/student/{some id} (with DELETE method) will delete a specific record.
   }
   ```
 
-### 4. PUT api/v1/student/studentId eg api/v1/student/111111
+### 4. PUT  https://nodeapi-student-crud.herokuapp.com/api/v1/student/studentId eg api/v1/student/111111
 
 - Request Body Data Format:
 
@@ -138,7 +138,7 @@ api/v1/student/{some id} (with DELETE method) will delete a specific record.
   }
   ```
 
-### 5. DELETE api/v1/student/studentId eg api/v1/student/111111
+### 5. DELETE  https://nodeapi-student-crud.herokuapp.com/api/v1/student/studentId eg api/v1/student/111111
 
 - Response Data Format:
   ```JSON
